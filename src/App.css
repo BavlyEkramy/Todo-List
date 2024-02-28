@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  letter-spacing: 0.4px;
+  font-family: Arial, Heivetica, sans-serif;
+  background-color: rgba(0, 0, 0, 0.87);
+}
+.App {
+  background-color: rgb(97, 97, 97);
+  margin: 50px auto;
+  width: 850px;
+  padding: 30px;
+  text-align: center;
+  border-radius: 25px;
+}
+.title {
+  color: #fff;
+  font-size: 2.2rem;
+  text-align: center;
+}
+.App .todo-item {
+  cursor: pointer;
+  font-size: 22px;
+  color: #fff;
+  margin: 20px;
+}
+.App input {
+  width: 250px;
+  height: 50px;
+  border-radius: 10px;
+  margin: 20px;
+  outline: 0;
+  font-size: 1rem;
+  font-weight: 600;
+  border: 1px solid #fff;
+  padding: 15px;
+}
+.App button {
+  display: block;
+  margin: auto;
+  width: 150px;
+  height: 40px;
+  background-color: black;
+  color: #fff;
+  border-radius: 5px;
+  border: 0;
+}
+.App .item h2 {
+  size: 2rem;
+}
+.App .item p {
+  size: 1.3rem;
+}
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: gray;
+  border-radius: 50px;
+  padding: 0 20px;
+  margin: 20px auto;
+}
+.item-f {
+  border: 1px solid #b47643 !important;
+  box-shadow: 1px 1px 30px rgb(199, 156, 131) inset !important;
+}
+.item-t {
+  border: 1px solid #4cb443;
+  box-shadow: 1px 1px 30px rgb(131, 182, 199) inset;
+}
+.check i {
+  margin: 0 10px;
+}
+
+@media (max-width: 850px) {
+  .App {
+    background-color: rgb(97, 97, 97);
+    margin: 50px auto;
+    width: 90%;
+  }
+}
