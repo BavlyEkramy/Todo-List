@@ -106,16 +106,19 @@ body {
     width: 100%;
   }
   .contact {
-    width: 95%;
+    width: 85%;
   }
   .App .item h2 {
-    font-size: 0.9rem;
+    font-size: 1rem;
   }
   .App .item p {
-    font-size: 0.6rem;
+    font-size: 0.8rem;
   }
   .check {
     gap: 5px;
     font-size: 1rem;
+  }
+  .App {
+    padding: 10px 2px;
   }
 }
