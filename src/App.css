@@ -9,7 +9,7 @@ body {
 .App {
   background-color: rgb(97, 97, 97);
   margin: 50px auto;
-  width: 850px;
+  width: 950px;
   padding: 30px;
   text-align: center;
   border-radius: 25px;
@@ -41,16 +41,22 @@ body {
   margin: auto;
   width: 150px;
   height: 40px;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.836);
   color: #fff;
-  border-radius: 5px;
+  border-radius: 8px;
   border: 0;
+  font-size: 1.2rem;
+}
+.contact {
+  width: 80%;
 }
 .App .item h2 {
-  size: 2rem;
+  overflow-wrap: break-word;
+  font-size: 2rem;
 }
 .App .item p {
-  size: 1.3rem;
+  font-size: 1.3rem;
+  overflow-wrap: break-word;
 }
 .item {
   display: flex;
@@ -58,8 +64,9 @@ body {
   align-items: center;
   background-color: gray;
   border-radius: 50px;
-  padding: 0 20px;
+  padding: 5px 25px;
   margin: 20px auto;
+  text-align: left;
 }
 .item-f {
   border: 1px solid #b47643 !important;
@@ -69,14 +76,46 @@ body {
   border: 1px solid #4cb443;
   box-shadow: 1px 1px 30px rgb(131, 182, 199) inset;
 }
-.check i {
-  margin: 0 10px;
+.check {
+  display: flex;
+  gap: 15px;
+  font-size: 2rem;
 }
-
+.del {
+  color: rgb(212, 38, 38);
+}
+.done {
+  color: rgb(175, 46, 46);
+}
+.notDone {
+  color: rgba(33, 209, 27, 0.836);
+}
 @media (max-width: 850px) {
   .App {
     background-color: rgb(97, 97, 97);
     margin: 50px auto;
     width: 90%;
+  }
+  .check {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 600px) {
+  .item {
+    border-radius: 20px;
+    width: 100%;
+  }
+  .contact {
+    width: 95%;
+  }
+  .App .item h2 {
+    font-size: 0.9rem;
+  }
+  .App .item p {
+    font-size: 0.6rem;
+  }
+  .check {
+    gap: 5px;
+    font-size: 1rem;
   }
 }

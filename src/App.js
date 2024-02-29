@@ -53,18 +53,18 @@ function App() {
                 className={completed ? "item item-t" : "item item-f"}
                 key={index}
               >
-                <div className={completed ? "diffstyle" : ""}>
+                <div className="contact">
                   <h2>{title}</h2> <p>{description}</p>
                 </div>
                 <span className="check">
                   <i
                     className={
-                      completed ? "far fa-times-circle" : "far fa-check-circle"
+                      completed ? "far fa-times-circle done" : "far fa-check-circle notDone"
                     }
                     onClick={() => itemDone(index)}
                   ></i>
                   <i
-                    className="fas fa-trash"
+                    className="fas fa-trash del"
                     onClick={() => toDelete(index)}
                   ></i>
                 </span>
