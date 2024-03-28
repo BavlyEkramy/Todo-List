@@ -69,12 +69,10 @@ body {
   text-align: left;
 }
 .item-f {
-  border: 1px solid #b47643 !important;
-  box-shadow: 1px 1px 30px rgb(199, 156, 131) inset !important;
+  box-shadow: 1px 1px 50px rgb(248, 157, 134) inset !important;
 }
 .item-t {
-  border: 1px solid #4cb443;
-  box-shadow: 1px 1px 30px rgb(131, 182, 199) inset;
+  box-shadow: 2px 2px 50px rgb(110, 226, 255) inset;
 }
 .check {
   display: flex;
@@ -82,7 +80,7 @@ body {
   font-size: 2rem;
 }
 .del {
-  color: rgb(212, 38, 38);
+  color: rgb(243, 31, 31);
 }
 .done {
   color: rgb(175, 46, 46);
